@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-0.0.238
+Bnd-LastModified: 1716451435651
+Export-Package: org.wso2.carbon.test;uses:="org.apache.synapse.rest,org.
+ apache.synapse.core.axis2,org.wso2.carbon.apimgt.gateway.handlers.secur
+ ity,org.apache.axis2.context,org.apache.synapse"
+Import-Package: org.apache.axis2.context;resolution:=optional,org.apache
+ .synapse;resolution:=optional,org.apache.synapse.core.axis2;resolution:
+ =optional,org.apache.synapse.rest;resolution:=optional,org.wso2.carbon.
+ apimgt.gateway.handlers.security;resolution:=optional,org.wso2.carbon.t
+ est;resolution:=optional
+Bundle-Name: org.wso2.carbon.test
+Bundle-SymbolicName: org.wso2.carbon.test
+Bundle-Version: 1.0.0.SNAPSHOT
+Built-By: admin
+Build-Jdk: 11.0.18
+
